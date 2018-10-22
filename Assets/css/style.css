@@ -7,12 +7,13 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%239C92AC' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
     margin: 0;
     padding: 0;
+    
 
 }
 
 
 h1 {
-    font-size: 21px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -20,33 +21,20 @@ header {
     background-color: white;
     padding-left: 200px;
     padding-right: 200px;
-    height: 50px;
+    height: 70px;
     border-bottom: 1px;
     text-align: center;
 
 }
 
-
-
-#about {
+#about, #contact{
     float: right;
     padding-right: 10px;
-    padding-top: 5px;
-    border-right: 1px solid gray;
-    height: 30px;
-    margin-top: 10px;
-    text-decoration: none;
-    color: gray;
-}
-
-#contact{
-    float: right;
-    padding-right: 10px;
-    padding-top: 5px;
     padding-left: 10px;
+    padding-top: 5px;
     border-right: 1px solid gray;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-decoration: none;
     color: gray;
 }
@@ -57,7 +45,7 @@ header {
     padding-top: 5px;
     padding-left: 10px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 20px;
     text-decoration: none;
     color: gray;
 }
@@ -66,11 +54,12 @@ header {
     float: left;
     background-color: teal;
     color: white;
+    padding-top: 7px;
     padding-left: 20px;
     padding-right: 20px;
-    height: 50px;
+    height: 70px;
     text-align: center;
-
+    width: 160px;
 }
 
 #image {
@@ -78,6 +67,7 @@ header {
     padding-right: 20px;
     padding-bottom: 2opx;
 }
+
 .contaner {
     clear: both;
     background-color: white;
@@ -87,8 +77,8 @@ header {
 
 }
 
-#main-bio {
-    margin: 20px;
+#main-page {
+    margin: 30px;
     padding-bottom: 20px;
 }
 
@@ -100,6 +90,7 @@ header {
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px solid lightgray;
 }
 
 footer {
