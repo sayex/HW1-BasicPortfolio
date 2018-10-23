@@ -11,21 +11,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  font-size: 22px;
-  font-weight: bold;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
 header {
   background-color: #ffffff;
   padding-left: 200px;
-  padding-right: 200px;
   height: 70px;
   border-bottom: 1px;
   text-align: center;
 }
 .navbar {
+  width: 960px;
+}
+
+.contaner {
+  clear: both;
+  background-color: white;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
   width: 960px;
 }
 
@@ -40,6 +42,12 @@ header {
   margin-top: 20px;
   text-decoration: none;
   color: gray;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #portfolio {
@@ -69,15 +77,6 @@ header {
   float: left;
   padding-right: 20px;
   padding-bottom: 2opx;
-}
-
-.contaner {
-  clear: both;
-  background-color: white;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
-  width: 960px;
 }
 
 #main-page {
