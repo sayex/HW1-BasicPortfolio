@@ -26,7 +26,7 @@ header {
   text-align: center;
 }
 .navbar {
-    width: 960px;
+  width: 960px;
 }
 
 #about,
@@ -98,7 +98,7 @@ hr {
 
 footer {
   background-color: #666666;
-  border-top: 5px solid teal;
+  border-top: 8px solid #4aaaa5;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -126,15 +126,14 @@ textarea {
 }
 
 .portfolioboxes {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: center;
-    align-content: space-between;
-    height: 540px;
-    width: 330px;
-
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+  height: 540px;
+  width: 330px;
 }
 
 .box2,
@@ -144,7 +143,6 @@ textarea {
 .box5 {
   position: relative;
   margin-bottom: 25px;
-
 }
 .box2tittle,
 .box1tittle,
