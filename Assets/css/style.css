@@ -110,12 +110,10 @@ footer {
   color: white;
 }
 
-textarea {
-  width: 100%;
-  border: 1px solid lightgray;
-}
 .textbox {
   width: 100%;
+  width: 100%;
+  border: 1px solid lightgray;
 }
 
 #submit {
