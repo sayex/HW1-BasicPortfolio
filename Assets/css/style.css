@@ -59,6 +59,16 @@ header {
   color: gray;
 }
 
+/* learned in class will implenet later */
+
+/* a:link {
+  color: gray;
+}
+
+a:hover {
+  background-color: lightsteelblue;
+} */
+
 .name {
   float: left;
   background-color: #4aaaa5;
@@ -132,19 +142,11 @@ footer {
   width: 330px;
 }
 
-.box2,
-.box1,
-.box3,
-.box4,
-.box5 {
+.boxes {
   position: relative;
   margin-bottom: 25px;
 }
-.box2tittle,
-.box1tittle,
-.box3tittle,
-.box4tittle,
-.box5tittle {
+.boxtittle {
   position: absolute;
   bottom: 10px;
   height: 30px;
